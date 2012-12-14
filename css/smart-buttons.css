@@ -1,0 +1,36 @@
+/*
+==============================
+Title: SMART Particles Buttons Stylesheet
+Author: Adelon Obejas Zeta
+Email: adelon.zeta@goabroad.com / adelonzeta@gmail.com
+Website: www.adelonzeta.com
+Date: July 23, 2012
+==============================
+*/
+
+.btn-pink {
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.btn-pink:hover {
+	color: #fff;
+}
+
+.btn-xlarge {	
+	font-weight: bold;
+	padding: 18px 30px;
+	font-size: 24px;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn-pink {
+	background: #EB3779;
+	background: -moz-linear-gradient(#EB3779, #D92365) repeat scroll 0 0 #E42C6D;
+	border-color: #AD003F;
+}
+
+.btn-pink:hover, .btn-pink[disabled="disabled"], .btn-pink[disabled="disabled"]:hover {
+	background: #e42c6d;
+	background: -moz-linear-gradient(#e42c6d, #CC1256) repeat scroll 0 0 #e42c6d;
+}

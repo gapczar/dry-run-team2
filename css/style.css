@@ -1,12 +1,37 @@
 @import url(bootstrap.min.css);
+@import url(smart-buttons.css);
 
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Rufina', serif;
+	color: #E2296B;
 }
 
 body {
-	padding: 0;
+	padding: 30px 0;
+	color: #555;
 }
 
+
+/* Main Styles */
+
+a {
+	color: #E2296B;
+}
+
+.container {
+	width: 600px;
+}
+
+header {
+	text-align: center;
+}
+
+header h1 {
+	margin: 50px auto;
+}
+
+.btn-block {
+	display: block;
+}

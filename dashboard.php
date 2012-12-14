@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Miss U App</title>
+	<title>Dashboard - Miss U App</title>
 	<!-- Stylesheet -->
 	<link rel="stylesheet" href="css/style.css" />
 	
@@ -14,10 +14,19 @@
 
 	<header>
 		<div class="container">
-			<h1><a href="/"><img src="/images/logo.png" alt="Miss Universe" /></a></h1>
-			<p><a href="/login.php" class="btn btn-xlarge btn-pink">Create Poll</a></p>
+			<h1><img src="/images/logo.png" alt="Miss Universe" /></h1>
 		</div>
 	</header>
+	<section>
+		<div class="container">
+			<a href="" class="btn btn-xlarge btn-pink btn-block">Invite</a>
+			<ul>
+				<li>
+					
+				</li>
+			</ul>
+		</div>
+	</section>
 
 	
 	
