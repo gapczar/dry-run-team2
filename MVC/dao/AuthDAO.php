@@ -5,10 +5,6 @@ class AuthDAO {
 	public function __construct(){}
 	
 	
-	public function insert($auth){
-		
-		
-	}
 	
 	public function selectAll()
 	{
@@ -25,6 +21,24 @@ class AuthDAO {
 		return $auth;
 	}
 	
+	
+	public function insert($auth){
+		
+		$sql = "INSERT INTO  auth (
+		id ,
+		username ,
+		email ,
+		password ,
+		status
+		)
+		VALUES (
+		NULL ,  '".$auth->getUsername()."',  '".$auth->getEmail()."',  '".$auth->getPassword()."',  '".$auth->getStatus()."'
+		)";
+		//var_dump($sql);exit;
+		
+		$auth = Connect::executeQuery($sql);
+		
+	}
 	
 	protected function readRow($row){
 		$auth = new Auth();

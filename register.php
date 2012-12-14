@@ -20,11 +20,11 @@
 		<div class="container">
 			<h2>Sign-up</h2>
 			<!-- MVC/controller/authController.php -->
-			<form class="form-horizontal" action = "" method = "post">
+			<form class="form-horizontal" action = "MVC/controller/registerController.php" method = "post">
 				<div class="control-group">
 					<label class="control-label" for="inputName">Name</label>
 					<div class="controls">
-						<input type="text" name = "name" id="inputName" placeholder="Name">
+						<input type="text" name = "username" id="inputName" placeholder="Name">
 					</div>
 				</div>
 				<div class="control-group">
