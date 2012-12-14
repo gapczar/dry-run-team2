@@ -20,7 +20,22 @@
 	<section>
 		<div class="container">
 			<h2 class="welcome">Welcome, <strong>John Doe!</strong> | <a href="/">Logout</a></h2>
-			<a href="" class="btn btn-xlarge btn-pink btn-block"><i class="icon-envelope"></i> Send Poll</a>
+			<a href="#send-poll" data-toggle="modal" class="btn btn-xlarge btn-pink btn-block"><i class="icon-envelope"></i> Send Poll</a>
+			<div id="send-poll" class="modal hide fade">
+		    	<div class="modal-header">
+		    		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		    		<h3>Send Poll</h3>
+		    	</div>
+		    	<div class="modal-body">
+		    		<form action="">
+		    			
+		    		</form>
+		    	</div>
+		    	<div class="modal-footer">
+		    		<a href="#" class="btn">Close</a>
+		    		<a href="#" class="btn btn-pink">Send</a>
+		    	</div>
+		    </div>
 			<ul class="picks">
 				<li>
 					<h3>1</h3>
