@@ -19,10 +19,56 @@
 	</header>
 	<section>
 		<div class="container">
-			<a href="" class="btn btn-xlarge btn-pink btn-block">Invite</a>
-			<ul>
+			<h2 class="welcome">Welcome, <strong>John Doe!</strong> | <a href="/">Logout</a></h2>
+			<a href="" class="btn btn-xlarge btn-pink btn-block"><i class="icon-envelope"></i> Send Poll</a>
+			<ul class="picks">
 				<li>
-					
+					<h3>1</h3>
+					<div class="placeholder">
+						<div class="pull-left">
+							<img class="photo" src="/images/photo.jpg" alt="Shamcey Supsup" />
+						</div>
+						<div class="pull-left">
+							<h4>Shamcey Supsup</h4>
+							<p><i>24 years old</i> | <span>Philippines</span></p>
+						</div>
+						<div class="pull-right">
+							<strong>61pts</strong>
+						</div>
+					</div>
+				</li>
+				<li>
+					<h3>2</h3>
+					<div class="placeholder">
+						<div class="pull-left">
+							<img class="photo" src="/images/photo.jpg" alt="Shamcey Supsup" />
+						</div>
+						<div class="pull-left">
+							<h4>Shamcey Supsup</h4>
+							<p><i>24 years old</i> | <span>Philippines</span></p>
+						</div>
+						<div class="pull-right">
+							<strong>53pts</strong>
+						</div>
+					</div>
+				</li>
+				<li>
+					<h3>3</h3>
+					<div class="placeholder">
+						<strong class="no-entry">No Entry</strong>
+					</div>
+				</li>
+				<li>
+					<h3>4</h3>
+					<div class="placeholder">
+						<strong class="no-entry">No Entry</strong>
+					</div>
+				</li>
+				<li>
+					<h3>5</h3>
+					<div class="placeholder">
+						<strong class="no-entry">No Entry</strong>
+					</div>
 				</li>
 			</ul>
 		</div>

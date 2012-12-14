@@ -1,5 +1,7 @@
 @import url(bootstrap.min.css);
 @import url(smart-buttons.css);
+@import url(font-awesome.css);
+@import url(font-awesome-ie7.css);
 
 /* Typography */
 
@@ -21,6 +23,10 @@ a {
 	color: #E2296B;
 }
 
+a:hover {
+	color: #ED3779;
+}
+
 .container {
 	width: 600px;
 }
@@ -33,6 +39,66 @@ header h1 {
 	margin: 50px auto;
 }
 
-.btn-block {
+.welcome {
+	color: #555;
+	text-align: center;
+	font-size: 1rem;
+}
+
+.picks {
+	list-style-type: none;
+	padding: 0;
+	margin: 20px 0;
+}
+
+.picks > li {
+	border: solid 1px #e9e9e9;
+	margin-bottom: -1px;
+	height: 80px;
+}
+
+.picks h3 {
+	display: inline-block;
+	padding: 20px 30px;
+	margin: 0;
+	background: #fafafa;
+	vertical-align: top;
+}
+
+.picks .placeholder {
+	display: inline-block;
+	width: 450px;
+}
+
+.dropdown {
+	display: inline-block;
+}
+
+.pick-contestant .dropdown-toggle {
+	font-size: 1.5rem;
+    height: 23%;
+    padding: 30px 20px;
+    vertical-align: top;
+    width: 450px;
 	display: block;
+}
+
+.no-entry {
+	padding: 0 20px;
+	color: #999;
+	font-size: 1.5rem;
+	display: block;
+	margin-top: 30px;
+}
+
+.photo {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: solid 1px #efefef;
+	margin: 10px;
+}
+
+.picked h4 {
+	display: inline;
 }

@@ -34,3 +34,7 @@ Date: July 23, 2012
 	background: #e42c6d;
 	background: -moz-linear-gradient(#e42c6d, #CC1256) repeat scroll 0 0 #e42c6d;
 }
+
+.btn-block {
+	display: block;
+}
