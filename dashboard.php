@@ -33,7 +33,7 @@
 							<p><i>24 years old</i> | <span>Philippines</span></p>
 						</div>
 						<div class="pull-right">
-							<strong>61pts</strong>
+							<span class="label">61pts</span>
 						</div>
 					</div>
 				</li>
@@ -48,7 +48,7 @@
 							<p><i>24 years old</i> | <span>Philippines</span></p>
 						</div>
 						<div class="pull-right">
-							<strong>53pts</strong>
+							<span class="label">53pts</span>
 						</div>
 					</div>
 				</li>
