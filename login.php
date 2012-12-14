@@ -20,6 +20,10 @@
 		<div class="container">
 			<h2>Login</h2>
 			<form action="/dashboard.php" class="form-horizontal">
+				<div class="alert alert-error fade in">
+				  <button data-dismiss="alert" class="close" type="button">×</button>
+				  <strong>Holy guacamole!</strong> Best check yo self, you're not looking too good.
+				</div>
 				<div class="control-group">
 					<label class="control-label" for="inputEmail">Email</label>
 					<div class="controls">
