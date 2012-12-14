@@ -27,8 +27,8 @@
 		    		<h3>Send Poll</h3>
 		    	</div>
 		    	<div class="modal-body">
-		    		<form action="">
-		    			
+		    		<form>
+		    			<input type="text" placeholder="Email Address">
 		    		</form>
 		    	</div>
 		    	<div class="modal-footer">
