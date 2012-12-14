@@ -102,3 +102,19 @@ header h1 {
 .picked h4 {
 	display: inline;
 }
+
+.choose-again {
+	float: right;
+	position: relative;
+	margin-top: -40px;
+}
+
+.choose-again .dropdown-toggle {
+	color: #E2296B;
+	font-size: 2rem;
+}
+
+.dropdown-menu {
+	position: absolute;
+	top: 0;
+}
