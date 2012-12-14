@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +20,7 @@
 	</header>
 	<section>
 		<div class="container">
-			<h2 class="welcome">Welcome, <strong>John Doe!</strong> | <a href="/">Logout</a></h2>
+			<h2 class="welcome">Welcome, <strong><?php echo isset($_SESSION['username']) ? $_SESSION['username'] : 'dummy'; ?>  !</strong> | <a href="/">Logout</a></h2>
 			<a href="#send-poll" data-toggle="modal" class="btn btn-xlarge btn-pink btn-block"><i class="icon-envelope"></i> Send Poll</a>
 			<div id="send-poll" class="modal hide fade">
 		    	<div class="modal-header">
